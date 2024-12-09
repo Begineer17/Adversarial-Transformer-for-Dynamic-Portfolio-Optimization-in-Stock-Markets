@@ -80,6 +80,12 @@ The configuration for the experiment is managed using Sacred. Key configurations
 - future_start_date, future_end_date: Date range for testing data.
 - input_dim, embed_dim, num_heads, num_layers, dropout, window_size, batch_size, learning_rate, epochs: Model and training hyperparameters.
 
+## Acknowledgements
+This project refers to some excellent open source project: [vnquant](https://github.com/phamdinhkhanh/vnquant).
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
 ---
 
 Feel free to customize this README file further to suit your project's specific needs.

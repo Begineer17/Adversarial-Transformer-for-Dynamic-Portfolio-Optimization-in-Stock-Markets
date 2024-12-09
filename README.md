@@ -1,5 +1,7 @@
 # Adversarial-Transformer-for-Dynamic-Portfolio-Optimization-in-Stock-Markets
 
+# Stock Investment Transformer
+
 This project implements a stock investment strategy using transformer models. The goal is to maximize the Sharpe ratio while minimizing market volatility. The project uses PyTorch for model implementation and Sacred for experiment management.
 
 ## Table of Contents

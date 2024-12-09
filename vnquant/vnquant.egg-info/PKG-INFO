@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: vnquant
+Version: 0.1.1
+Summary: Viet Nam stock market
+Home-page: https://github.com/phamdinhkhanh/vnquant
+Author: KhanhPhamDinh
+Author-email: phamdinhkhanh.tkt53.neu@gmail.com
+License: MIT
+Keywords: data
+Classifier: Development Status :: 0 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Trader/Investor/Science/Research
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Cython
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Financial/Stock Market
+Requires-Dist: pandas>=0.19.2
+Requires-Dist: numpy>=1.20.2
+Requires-Dist: requests>=2.3.0
+Requires-Dist: wrapt>=1.10.0
+Requires-Dist: lxml>=4.3.0
+Requires-Dist: pypandoc>=1.4
+Requires-Dist: plotly>=4.2.1
+Requires-Dist: bs4>=0.0.1
+
+This project provide the financial information and useful visualization instrument about Vietnam stock market to researcher. Particularly, there are many aspect of data relating to any stock being able to store and clone. The official version are built on both machine learning language Python and R.

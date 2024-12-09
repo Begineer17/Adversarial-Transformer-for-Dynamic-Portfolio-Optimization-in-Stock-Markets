@@ -30,11 +30,7 @@ This project implements a stock investment strategy using transformer models. Th
 
 ## Usage
 
-1. Prepare the 
-
-stocks.txt
-
- file with the list of stock symbols you want to analyze.
+1. Prepare the `stocks.txt`: file with the list of stock symbols you want to analyze.
 
 2. Run the experiment:
     ```sh
@@ -45,11 +41,7 @@ stocks.txt
 
 - `portfolio_model.py`: Main script containing model definitions, loss functions, and training/testing logic.
 - `experiments/`: Directory where experiment logs are saved.
-- 
-
-stocks.txt
-
-: File containing the list of stock symbols.
+- `stocks.txt`: File containing the list of stock symbols.
 
 ## Models
 
@@ -59,32 +51,16 @@ A transformer model that processes stock data across multiple stocks and time st
 
 ### InvestorTransformer
 
-A model that uses 
-
-CrossStockTransformer
-
- to predict stock allocations.
+A model that uses CrossStockTransformer to predict stock allocations.
 
 ### MarketTransformer
 
-A model that uses 
-
-CrossStockTransformer
-
- to predict market impact.
+A model that uses CrossStockTransformer to predict market impact.
 
 ## Loss Functions
 
-- 
-
-sharpe_ratio_loss
-
-: Maximizes the Sharpe ratio by minimizing its negative value.
-- 
-
-market_stability_loss
-
-: Minimizes volatility by penalizing return standard deviation.
+- sharpe_ratio_loss: Maximizes the Sharpe ratio by minimizing its negative value.
+- market_stability_loss: Minimizes volatility by penalizing return standard deviation.
 
 ## Training and Testing
 
@@ -100,75 +76,11 @@ The testing process evaluates the models on future data to ensure they generaliz
 
 The configuration for the experiment is managed using Sacred. Key configurations include:
 
-- 
-
-seed
-
-: Random seed for reproducibility.
-- 
-
-stocks_file
-
-: Path to the file containing stock symbols.
-- 
-
-start_date
-
-, 
-
-end_date
-
-: Date range for training data.
-- 
-
-future_start_date
-
-, 
-
-future_end_date
-
-: Date range for testing data.
-- 
-
-input_dim
-
-, 
-
-embed_dim
-
-, 
-
-num_heads
-
-, 
-
-num_layers
-
-, 
-
-dropout
-
-, 
-
-window_size
-
-, 
-
-batch_size
-
-, 
-
-learning_rate
-
-, 
-
-epochs
-
-: Model and training hyperparameters.
-
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
+- seed: Random seed for reproducibility.
+- stocks_file: Path to the file containing stock symbols.
+- start_date, end_date: Date range for training data.
+- future_start_date, future_end_date: Date range for testing data.
+- input_dim, embed_dim, num_heads, num_layers, dropout, window_size, batch_size, learning_rate, epochs: Model and training hyperparameters.
 
 ---
 
